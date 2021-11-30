@@ -4,14 +4,11 @@ const Nav = (props) => {
   
 
   return(
-    <nav className="flex justify-between w-full h-10 mx-auto">
-      <div className="text-2xl">
-        logo
-      </div>
-      <div className="flex">
-        <div>about</div>
-        <div>projects</div>
-        <div>contact</div>
+    <nav className="items-center w-full h-16 mx-auto bg-indigo-600">
+      <div className="flex w-3/5 mx-auto text-3xl justify-evenly">
+          <div>about</div>
+          <div>projects</div>
+          <div>contact</div>
       </div>
     </nav>
   )
