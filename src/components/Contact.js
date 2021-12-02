@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 
 const Contact = (props) => {
-  
 
   return(
     <div id="contact" className="bg-yellow-600 h-60">
