@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 const About = (props) => {
   return(
     <div id="about" className="bg-blue-600">
-      <div className="flex-col justify-between w-3/5 py-8 mx-auto text-3xl">
+      <div className="flex-col justify-between w-4/5 py-20 mx-auto text-3xl md:w-3/5">
         <div>
           I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area.
         </div>
