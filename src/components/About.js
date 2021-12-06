@@ -4,11 +4,11 @@ const About = (props) => {
   return(
     <div id="about" className="bg-blue-600">
       <div className="flex-col justify-between w-4/5 py-20 mx-auto text-3xl md:w-3/5">
-        <div>
-          I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area.
-        </div>
         <div className="text-sm">
           about me
+        </div>
+        <div>
+          I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area.
         </div>
         <div>
           I officially started my coding journey in 2021 through online courses, then bolstered my skillset with General Assembly's Software Engineering Immersive course. I primarily develop full-stack applications with the MERN (MongoDB, Express.js, React.js, and Node.js) stack. 
