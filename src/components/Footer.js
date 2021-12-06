@@ -5,10 +5,10 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
     return(
-      <div className="py-20 bg-gray-900">
+      <div className="bg-gray-900">
         <footer className="flex items-center justify-between w-4/5 h-16 py-8 mx-auto text-xl text-white md:w-3/5 md:text-2xl">
             <div>
-                Made by Dainyl Cua
+                Created by Dainyl Cua!
             </div>
             <div>
                 <div className="flex flex-row items-center space-x-4">

@@ -11,7 +11,7 @@ const Projects = (props) => {
             Project Showcase
           </div>
           <div>
-            I've worked on a lot of projects, primarily in JavaScript. Check them out below!
+            I've worked on a lot of projects, primarily in JavaScript. Check them out below! Feel free to contact me in case any errors pop up.
           </div>
         </div>
         <div className="flex flex-col">
@@ -46,7 +46,28 @@ const Projects = (props) => {
               <div>Image</div>
               <div>Badges</div>
             </div>
-            <div>Project 3 description</div>
+            <div className="flex flex-col">
+              <div>
+                <a href="https://dispbeastio.netlify.app/">
+                  dispbeast.io
+                </a>
+              </div>
+              <div>dispbeast.io is a decoupled full-stack CRUD app with a front-end built with React.js, deployed to Netlify, and a back-end built with Express.js, deployed to Heroku. Gather items with a randomly-generated character and sell or buy items on the marketplace.</div>
+            </div>
+          </div>
+          <div className="flex flex-row-reverse place-self-end">
+            <div className="flex flex-col">
+              <div>Image</div>
+              <div>Badges</div>
+            </div>
+            <div className="flex flex-col">
+              <div>
+                <a href="https://dc-dev-to-dev-test.herokuapp.com/">
+                  Dev-to-Dev
+                </a>
+              </div>
+              <div>Dev-to-Dev is built in Python using the Django framework and handles data using PostgreSQL. The app aims to connect bootcamp students and junior software developers to discuss various topics related to the tech field. Dev-to-Dev was created as a group project where I took up the role as the GitHub manager and general full-stack developer.</div>
+            </div>
           </div>
         </div>
       </div>
