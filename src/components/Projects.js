@@ -21,7 +21,9 @@ const Projects = (props) => {
               <div>Badges</div>
             </div>
             <div className="flex flex-col">
-              <div>DungeonSheet</div>
+              <div>
+                <a href="https://dc-dungeon-sheet.netlify.app/">DungeonSheet</a>
+              </div>
               <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a href="http://www.dnd5eapi.co/">here!</a></div>
             </div>
           </div>
@@ -31,8 +33,12 @@ const Projects = (props) => {
               <div>Badges</div>
             </div>
             <div className="flex flex-col">
-              <div>5eTale</div>
-              <div>5eTale is a full-stack CRUD app that uses Embedded JavaScript. </div>
+              <div>
+                <a href="https://dc-5etale.herokuapp.com/">
+                  5eTale
+                </a>
+              </div>
+              <div>5eTale is a full-stack CRUD app that uses MonogoDB, Embedded JavaScript, Express.js, Node.js. Create custom items for D&D 5e and share them with other users!</div>
             </div>
           </div>
           <div className="flex flex-row">
