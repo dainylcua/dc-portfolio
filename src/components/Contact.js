@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react'
-
-const Contact = (props) => {
+const Contact = () => {
+  // Use state to manage form data
 
   return(
     <div id="contact" className="py-20 bg-yellow-600">
@@ -8,24 +7,8 @@ const Contact = (props) => {
         <div>
           You can reach me on LinkedIn, GitHub, or by email!
         </div>
-        <div className="flex flex-row">
-          <img src="" alt="github" />
-          <img src="" alt="linkedin" />
-        </div>
-        <div className="flex flex-col">
-          <div>
-            <label htmlFor="">Name</label>
-            <input type="text" />
-          </div>
-          <div>
-            <label htmlFor="">Email</label>
-            <input type="text" />
-          </div>
-          <div>
-          <label htmlFor="">Message</label>
-          <textarea name="" id="" cols="20" rows="10"></textarea>
-          {/* To make responsive, set cols to a variable and then make a media query */}
-          </div>
+        <div>
+          <a href="mailto:dainylcuainquiries@gmail.com">Send an Email</a>
         </div>
       </div>
     </div>

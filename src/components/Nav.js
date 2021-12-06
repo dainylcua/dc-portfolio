@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react'
-
 const Nav = () => {
   return(
     <nav className="sticky top-0 flex flex-row items-center w-full h-16 mx-auto bg-indigo-900">

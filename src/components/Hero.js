@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react'
-
-const Hero = (props) => {
+const Hero = () => {
   return(
     <div className="flex flex-col justify-center text-center text-white bg-indigo-900 h-96">
       <div className="flex flex-col w-3/5 mx-auto text-3xl md:text-4xl text">

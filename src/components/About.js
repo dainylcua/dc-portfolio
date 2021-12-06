@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react'
-
-const About = (props) => {
+const About = () => {
   return(
     <div id="about" className="bg-blue-600">
       <div className="flex-col justify-between w-4/5 py-20 mx-auto text-3xl md:w-3/5">

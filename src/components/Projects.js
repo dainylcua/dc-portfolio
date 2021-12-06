@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react'
-
-const Projects = (props) => {
+const Projects = () => {
   
 
   return(
