@@ -1,5 +1,5 @@
 import { IconContext } from 'react-icons'
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
+import { SiGithub, SiLinkedin} from 'react-icons/si'
 
 const Contact = () => {
   // Use state to manage form data
@@ -15,7 +15,7 @@ const Contact = () => {
               <a href="https://www.linkedin.com/in/dainylcua/">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <div>
-                    <FaLinkedin />
+                    <SiLinkedin />
                   </div>
                 </IconContext.Provider>
               </a>
@@ -24,7 +24,7 @@ const Contact = () => {
             <a href="https://github.com/dainylcua">
               <IconContext.Provider value={{ size: "2em" }}>
                 <div>
-                  <FaGithubSquare />
+                  <SiGithub />
                 </div>
               </IconContext.Provider>
             </a>

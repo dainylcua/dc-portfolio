@@ -1,4 +1,5 @@
 import { IconContext } from 'react-icons'
+import { SiDjango, SiPostgresql, SiPython, SiJavascript, SiReact, SiMongodb, SiExpress, SiNodedotjs, SiBulma, SiTailwindcss, SiBootstrap, SiJquery } from 'react-icons/si'
 
 const Projects = () => {
 
@@ -17,7 +18,18 @@ const Projects = () => {
           <div className="flex flex-row">
             <div className="flex flex-col">
               <div>Image</div>
-              <div>Badges</div>
+              <div>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiJavascript />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiJquery />
+                    </div>
+                  </IconContext.Provider>
+              </div>
             </div>
             <div className="flex flex-col">
               <div>
@@ -29,7 +41,33 @@ const Projects = () => {
           <div className="flex flex-row-reverse place-self-end">
             <div className="flex flex-col">
               <div>Image</div>
-              <div>Badges</div>
+              <div>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiJavascript />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiJquery />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiMongodb />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiExpress />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiNodedotjs />
+                    </div>
+                  </IconContext.Provider>
+              </div>
             </div>
             <div className="flex flex-col">
               <div>
@@ -43,7 +81,33 @@ const Projects = () => {
           <div className="flex flex-row">
             <div className="flex flex-col">
               <div>Image</div>
-              <div>Badges</div>
+              <div>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiJavascript />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiMongodb />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiExpress />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiReact />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiNodedotjs />
+                    </div>
+                  </IconContext.Provider>
+              </div>
             </div>
             <div className="flex flex-col">
               <div>
@@ -57,7 +121,23 @@ const Projects = () => {
           <div className="flex flex-row-reverse place-self-end">
             <div className="flex flex-col">
               <div>Image</div>
-              <div>Badges</div>
+              <div>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiPython />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiDjango />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiPostgresql />
+                    </div>
+                  </IconContext.Provider>
+              </div>
             </div>
             <div className="flex flex-col">
               <div>
