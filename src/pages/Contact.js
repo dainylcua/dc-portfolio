@@ -5,7 +5,7 @@ const Contact = () => {
   // Use state to manage form data
 
   return(
-    <div id="contact" className="py-20 bg-yellow-600">
+    <div id="contact" className="py-20 bg-gray-100">
       <div className="flex flex-col justify-between w-4/5 py-8 mx-auto md:w-3/5">
         <div>
           <div>

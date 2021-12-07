@@ -9,8 +9,8 @@ import Hero from './components/Hero'
 function App() {
   return (
     <>
-      <Hero />
       <Nav />
+      <Hero />
       <About />
       <Projects />
       <Contact />

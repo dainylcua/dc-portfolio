@@ -5,7 +5,7 @@ import { DiMaterializecss } from 'react-icons/di'
 const Projects = () => {
 
   return(
-    <div id="projects" className="py-20 bg-green-600">
+    <div id="projects" className="py-20 bg-gray-200">
       <div className="flex flex-col justify-between w-4/5 py-8 mx-auto md:w-3/5">
         <div className="flex flex-col">
           <div>
