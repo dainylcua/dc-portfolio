@@ -6,6 +6,9 @@ const Footer = () => {
                 Designed and Devleoped by Dainyl Cua!
                 {/* Make this clickable and then change the verb every time? */}
             </div>
+            <div>
+              Cpoyright © 2022 Dainyl Cua. All rights reserved.
+            </div>
         </footer>
       </div>
     )

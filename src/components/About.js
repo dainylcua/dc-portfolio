@@ -12,8 +12,9 @@ const About = () => {
           I officially started my coding journey in 2021 through online courses, then bolstered my skillset with General Assembly's Software Engineering Immersive course. I primarily develop full-stack applications with the MERN (MongoDB, Express.js, React.js, and Node.js) stack. 
         </div>
         <div>
-          While I am primarily a MERN stack developer, I am familiar with the following languages, libraries, frameworks, and technologies (as seen below).
+          While I am primarily a MERN stack developer, I am familiar with the following languages, libraries, frameworks, and technologies.
         </div>
+        {/* Potentially make this a JSON file? */}
         <div className="flex">
           <ul>
             <li></li>

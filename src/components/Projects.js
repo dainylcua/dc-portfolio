@@ -1,5 +1,6 @@
 import { IconContext } from 'react-icons'
 import { SiDjango, SiPostgresql, SiPython, SiJavascript, SiReact, SiMongodb, SiExpress, SiNodedotjs, SiBulma, SiTailwindcss, SiBootstrap, SiJquery } from 'react-icons/si'
+import { DiMaterializecss } from 'react-icons/di'
 
 const Projects = () => {
 
@@ -27,6 +28,11 @@ const Projects = () => {
                   <IconContext.Provider value={{ size: "2em" }}>
                     <div>
                       <SiJquery />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiBootstrap />
                     </div>
                   </IconContext.Provider>
               </div>
@@ -65,6 +71,11 @@ const Projects = () => {
                   <IconContext.Provider value={{ size: "2em" }}>
                     <div>
                       <SiNodedotjs />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiBulma />
                     </div>
                   </IconContext.Provider>
               </div>
@@ -107,6 +118,11 @@ const Projects = () => {
                       <SiNodedotjs />
                     </div>
                   </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <SiTailwindcss />
+                    </div>
+                  </IconContext.Provider>
               </div>
             </div>
             <div className="flex flex-col">
@@ -135,6 +151,11 @@ const Projects = () => {
                   <IconContext.Provider value={{ size: "2em" }}>
                     <div>
                       <SiPostgresql />
+                    </div>
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "2em" }}>
+                    <div>
+                      <DiMaterializecss />
                     </div>
                   </IconContext.Provider>
               </div>
