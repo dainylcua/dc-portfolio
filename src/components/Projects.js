@@ -1,5 +1,6 @@
+import { IconContext } from 'react-icons'
+
 const Projects = () => {
-  
 
   return(
     <div id="projects" className="py-20 bg-green-600">
