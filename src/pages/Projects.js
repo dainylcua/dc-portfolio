@@ -5,39 +5,30 @@ import { DiMaterializecss } from 'react-icons/di'
 const Projects = () => {
 
   return(
-    <div id="projects" className="py-20 bg-gray-200">
-      <div className="flex flex-col justify-between w-4/5 py-8 mx-auto md:w-3/5">
+    <div id="projects" className="bg-gray-200">
+      <div className="flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-3xl md:w-3/5">
         <div className="flex flex-col">
-          <div>
-            Project Showcase
+          <div className="text-4xl md:text-6xl">
+            project showcase
           </div>
           <div>
             I've worked on a lot of projects, primarily in JavaScript. Check them out below! Feel free to contact me in case any errors pop up.
           </div>
         </div>
-        <div className="flex flex-col">
-          <div className="flex flex-row">
-            <div className="flex flex-col">
-              <div>Image</div>
-              <div>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiJavascript />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiJquery />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiBootstrap />
-                    </div>
-                  </IconContext.Provider>
-              </div>
+        {/* Can componentize this */}
+        <div className="flex flex-col gap-y-10">
+          <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col w-1/3 pr-8">
+              <div className="self-center p-8">Image</div>
+                <IconContext.Provider value={{ size: "2em" }}>
+                  <div className="flex justify-evenly">
+                    <SiJavascript />
+                    <SiJquery />
+                    <SiBootstrap />
+                  </div>
+                </IconContext.Provider>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-2/3">
               <div>
                 <a href="https://dc-dungeon-sheet.netlify.app/">DungeonSheet</a>
               </div>
@@ -45,42 +36,22 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-row-reverse place-self-end">
-            <div className="flex flex-col">
-              <div>Image</div>
-              <div>
+            <div className="flex flex-col w-1/3 pl-8">
+              <div className="self-center p-8">Image</div>
+              <div className="flex justify-evenly">
                   <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
+                    <div className="flex justify-evenly">
                       <SiJavascript />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiJquery />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiMongodb />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiExpress />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiNodedotjs />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiBulma />
                     </div>
                   </IconContext.Provider>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-2/3">
               <div>
                 <a href="https://dc-5etale.herokuapp.com/">
                   5eTale
@@ -90,42 +61,20 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-row">
-            <div className="flex flex-col">
-              <div>Image</div>
-              <div>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiJavascript />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiMongodb />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiExpress />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiReact />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiNodedotjs />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
-                      <SiTailwindcss />
-                    </div>
-                  </IconContext.Provider>
-              </div>
+            <div className="flex flex-col w-1/3 pr-8">
+              <div className="self-center p-8">Image</div>
+                <IconContext.Provider value={{ size: "2em" }}>
+                  <div className="flex justify-evenly">
+                    <SiJavascript />
+                    <SiMongodb />
+                    <SiExpress />
+                    <SiReact />
+                    <SiNodedotjs />
+                    <SiTailwindcss />
+                  </div>
+                </IconContext.Provider>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-2/3">
               <div>
                 <a href="https://dispbeastio.netlify.app/">
                   dispbeast.io
@@ -135,32 +84,18 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-row-reverse place-self-end">
-            <div className="flex flex-col">
-              <div>Image</div>
-              <div>
+            <div className="flex flex-col w-1/3 pl-8">
+              <div className="self-center p-8">Image</div>
                   <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
+                    <div className="flex justify-evenly">
                       <SiPython />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiDjango />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <SiPostgresql />
-                    </div>
-                  </IconContext.Provider>
-                  <IconContext.Provider value={{ size: "2em" }}>
-                    <div>
                       <DiMaterializecss />
                     </div>
                   </IconContext.Provider>
-              </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-2/3">
               <div>
                 <a href="https://dc-dev-to-dev-test.herokuapp.com/">
                   Dev-to-Dev

@@ -1,8 +1,8 @@
 const About = () => {
   return(
     <div id="about" className="bg-gray-100">
-      <div className="flex-col justify-between w-4/5 py-20 mx-auto text-3xl md:w-3/5">
-        <div className="text-sm">
+      <div className="flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-3xl md:w-3/5">
+        <div className="text-4xl md:text-6xl">
           about me
         </div>
         <div>
@@ -15,9 +15,9 @@ const About = () => {
           While I am primarily a MERN stack developer, I am familiar with the following languages, libraries, frameworks, and technologies.
         </div>
         {/* Potentially make this a JSON file? */}
-        <div className="flex">
+        <div className="flex justify-between py-10">
           <ul>
-            <li></li>
+            <li>Front-End Focused Technologies</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Tailwind CSS</li>
@@ -25,6 +25,7 @@ const About = () => {
             <li>Bootstrap CSS</li>
           </ul>
           <ul>
+            <li>Full-Stack Focused Technologies</li>
             <li>JavaScript</li>
             <li>JQuery</li>
             <li>MongoDB</li>
@@ -37,6 +38,7 @@ const About = () => {
             <li>MATLAB</li>
           </ul>
           <ul>
+            <li>External Technologies</li>
             <li>GitHub</li>
             <li>Trello</li>
             <li>InVision</li>
