@@ -15,7 +15,7 @@ const About = () => {
           While I am primarily a MERN stack developer, I am familiar with the following languages, libraries, frameworks, and technologies:
         </div>
         {/* Potentially make this a JSON file? */}
-        <div className="flex justify-between pt-5 md:w-3/4">
+        <div className="flex justify-between pt-5 gap-x-2 md:w-3/4">
           <ul className="flex flex-col gap-y-2">
             <li className="pb-2 font-bold text-blue-400">Front-End Focused</li>
             <li>HTML5</li>
@@ -27,7 +27,7 @@ const About = () => {
           <ul className="flex flex-col gap-y-2">
             <li className="pb-2 font-bold text-blue-400">Full-Stack Focused</li>
             <li>JavaScript</li>
-            <li>JQuery</li>
+            <li>jQuery</li>
             <li>MongoDB</li>
             <li>Express.js</li>
             <li>React.js</li>

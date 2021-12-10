@@ -35,7 +35,7 @@ const Projects = () => {
                   DungeonSheet
                 </a>
               </div>
-              <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a href="http://www.dnd5eapi.co/">here!</a></div>
+              <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a className="text-blue-400 underline hover:text-blue-800" href="http://www.dnd5eapi.co/">here!</a></div>
             </div>
           </div>
 
