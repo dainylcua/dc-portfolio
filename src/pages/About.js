@@ -1,23 +1,23 @@
 const About = () => {
   return(
     <div id="about" className="bg-gray-100">
-      <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-3xl md:w-3/5">
-        <div className="self-center pb-12 text-4xl font-bold md:text-6xl md:self-start">
+      <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-2xl md:w-3/5">
+        <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
           about me
         </div>
-        <div>
-          I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area. I love to bake, read, play tabletop games, and annoy my pets!
+        <div className="pb-6 leading-relaxed">
+          I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area. I love to bake, read, play tabletop games, and annoy my pets! I wrote my first line of code was written while I was helping my sister design her profile page on ToonTownCentral - a forum site for one of our favorite childhood games.
         </div>
-        <div>
+        <div className="pb-6 leading-relaxed">
           I officially started my coding journey in 2021 through online courses, then bolstered my skillset with General Assembly's Software Engineering Immersive course. I primarily develop full-stack applications with the MERN (MongoDB, Express.js, React.js, and Node.js) stack. 
         </div>
-        <div>
-          While I am primarily a MERN stack developer, I am familiar with the following languages, libraries, frameworks, and technologies.
+        <div className="leading-relaxed"> 
+          While I am primarily a MERN stack developer, I am familiar with the following languages, libraries, frameworks, and technologies:
         </div>
         {/* Potentially make this a JSON file? */}
-        <div className="flex justify-between py-10">
+        <div className="flex justify-between pt-5 md:w-3/4">
           <ul className="flex flex-col gap-y-2">
-            <li className="pb-2 font-bold">Front-End Technologies</li>
+            <li className="pb-2 font-bold text-blue-400">Front-End Focused</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Tailwind CSS</li>
@@ -25,7 +25,7 @@ const About = () => {
             <li>Bootstrap CSS</li>
           </ul>
           <ul className="flex flex-col gap-y-2">
-            <li className="pb-2 font-bold">Full-Stack Technologies</li>
+            <li className="pb-2 font-bold text-blue-400">Full-Stack Focused</li>
             <li>JavaScript</li>
             <li>JQuery</li>
             <li>MongoDB</li>
@@ -37,7 +37,7 @@ const About = () => {
             <li>PostgreSQL</li>
           </ul>
           <ul className="flex flex-col gap-y-2"> 
-            <li className="pb-2 font-bold">Other Technologies</li>
+            <li className="pb-2 font-bold text-blue-400">Other</li>
             <li>Git</li>
             <li>GitHub</li>
             <li>Trello</li>

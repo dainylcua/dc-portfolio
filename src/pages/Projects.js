@@ -5,10 +5,10 @@ import { DiMaterializecss } from 'react-icons/di'
 const Projects = () => {
 
   return(
-    <div id="projects" className="bg-gray-200">
-      <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-3xl md:w-3/5">
+    <div id="projects" className="bg-white">
+      <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-2xl md:w-3/5">
         <div className="flex flex-col pb-8">
-          <div className="self-center pb-12 text-4xl font-bold md:text-6xl md:self-start">
+          <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
             project showcase
           </div>
           <div>
@@ -21,7 +21,7 @@ const Projects = () => {
           <div className="flex flex-col items-center md:items-start md:flex-row">
             <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
-              <IconContext.Provider value={{ size: "2em" }}>
+              <IconContext.Provider value={{ size: "1.5em" }}>
                 <div className="flex justify-evenly">
                   <SiJavascript />
                   <SiJquery />
@@ -30,8 +30,10 @@ const Projects = () => {
               </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="font-bold">
-                <a href="https://dc-dungeon-sheet.netlify.app/">DungeonSheet</a>
+              <div className="pb-4">
+                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dungeon-sheet.netlify.app/">
+                  DungeonSheet
+                </a>
               </div>
               <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a href="http://www.dnd5eapi.co/">here!</a></div>
             </div>
@@ -40,7 +42,7 @@ const Projects = () => {
           <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
             <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
-                <IconContext.Provider value={{ size: "2em" }}>
+                <IconContext.Provider value={{ size: "1.5em" }}>
                   <div className="flex justify-evenly">
                     <SiJavascript />
                     <SiJquery />
@@ -52,8 +54,8 @@ const Projects = () => {
                 </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="font-bold">
-                <a href="https://dc-5etale.herokuapp.com/">
+              <div className="pb-4">
+                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-5etale.herokuapp.com/">
                   5eTale
                 </a>
               </div>
@@ -64,7 +66,7 @@ const Projects = () => {
           <div className="flex flex-col items-center md:items-start md:flex-row">
             <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
-                <IconContext.Provider value={{ size: "2em" }}>
+                <IconContext.Provider value={{ size: "1.5em" }}>
                   <div className="flex justify-evenly">
                     <SiJavascript />
                     <SiMongodb />
@@ -76,8 +78,8 @@ const Projects = () => {
                 </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="font-bold">
-                <a href="https://dispbeastio.netlify.app/">
+              <div className="pb-4">
+                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dispbeastio.netlify.app/">
                   dispbeast.io
                 </a>
               </div>
@@ -88,7 +90,7 @@ const Projects = () => {
           <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
             <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
-                  <IconContext.Provider value={{ size: "2em" }}>
+                  <IconContext.Provider value={{ size: "1.5em" }}>
                     <div className="flex justify-evenly">
                       <SiPython />
                       <SiDjango />
@@ -98,8 +100,8 @@ const Projects = () => {
                   </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="font-bold">
-                <a href="https://dc-dev-to-dev-test.herokuapp.com/">
+              <div className="pb-4">
+                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/">
                   Dev-to-Dev
                 </a>
               </div>
