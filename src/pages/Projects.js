@@ -7,7 +7,7 @@ const Projects = () => {
   return(
     <div id="projects" className="bg-gray-200">
       <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-3xl md:w-3/5">
-        <div className="flex flex-col">
+        <div className="flex flex-col pb-8">
           <div className="self-center pb-12 text-4xl font-bold md:text-6xl md:self-start">
             project showcase
           </div>
@@ -19,7 +19,7 @@ const Projects = () => {
         {/* Can componentize this */}
         <div className="flex flex-col gap-y-10">
           <div className="flex flex-col items-center md:items-start md:flex-row">
-            <div className="flex flex-col md:pr-8 md:w-1/3">
+            <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
               <IconContext.Provider value={{ size: "2em" }}>
                 <div className="flex justify-evenly">
@@ -38,7 +38,7 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
-            <div className="flex flex-col md:pl-8 md:w-1/3">
+            <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
                 <IconContext.Provider value={{ size: "2em" }}>
                   <div className="flex justify-evenly">
@@ -62,7 +62,7 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start md:flex-row">
-            <div className="flex flex-col md:pr-8 md:w-1/3">
+            <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
                 <IconContext.Provider value={{ size: "2em" }}>
                   <div className="flex justify-evenly">
@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
-            <div className="flex flex-col md:pl-8 md:w-1/3">
+            <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
               <div className="self-center p-8">Image</div>
                   <IconContext.Provider value={{ size: "2em" }}>
                     <div className="flex justify-evenly">
