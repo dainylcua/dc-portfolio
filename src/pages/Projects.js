@@ -1,5 +1,5 @@
 import { IconContext } from 'react-icons'
-import { SiDjango, SiPostgresql, SiPython, SiJavascript, SiReact, SiMongodb, SiExpress, SiNodedotjs, SiBulma, SiTailwindcss, SiBootstrap, SiJquery } from 'react-icons/si'
+import { SiDjango, SiPostgresql, SiPython, SiJavascript, SiReact, SiMongodb, SiExpress, SiNodedotjs, SiBulma, SiTailwindcss, SiBootstrap, SiJquery, SiGithub } from 'react-icons/si'
 import { DiMaterializecss } from 'react-icons/di'
 
 const Projects = () => {
@@ -12,7 +12,7 @@ const Projects = () => {
             project showcase
           </div>
           <div>
-            I've worked on a lot of projects, primarily in JavaScript. Check them out below! Feel free to contact me in case any errors pop up.
+            I've worked on a lot of projects, primarily in JavaScript. Check the live sites out by clicking the picture or title, or click the GitHub icon to see the source code! Feel free to contact me in case of any errors.
           </div>
         </div>
 
@@ -30,10 +30,15 @@ const Projects = () => {
               </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="pb-4">
+              <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dungeon-sheet.netlify.app/">
                   DungeonSheet
                 </a>
+                <IconContext.Provider value={{ size: "1.5em"}}>
+                  <a href="https://github.com/dainylcua/dungeon-sheet">
+                    <SiGithub />
+                  </a>
+                </IconContext.Provider>
               </div>
               <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a className="text-blue-400 underline hover:text-blue-800" href="http://www.dnd5eapi.co/">here!</a></div>
             </div>
@@ -54,10 +59,15 @@ const Projects = () => {
                 </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="pb-4">
+              <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-5etale.herokuapp.com/">
                   5eTale
                 </a>
+                <IconContext.Provider value={{ size: "1.5em"}}>
+                  <a href="https://github.com/dainylcua/5etale">
+                    <SiGithub />
+                  </a>
+                </IconContext.Provider>
               </div>
               <div>5eTale is a full-stack CRUD app that uses MonogoDB, Embedded JavaScript, Express.js, Node.js. Create custom items for D&D 5e and share them with other users!</div>
             </div>
@@ -78,10 +88,15 @@ const Projects = () => {
                 </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="pb-4">
+              <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dispbeastio.netlify.app/">
                   dispbeast.io
                 </a>
+                <IconContext.Provider value={{ size: "1.5em"}}>
+                  <a href="https://github.com/dainylcua/dispbeast.io-frontend">
+                    <SiGithub />
+                  </a>
+                </IconContext.Provider>
               </div>
               <div>dispbeast.io is a decoupled full-stack CRUD app with a front-end built with React.js, deployed to Netlify, and a back-end built with Express.js, deployed to Heroku. Gather items with a randomly-generated character and sell or buy items on the marketplace.</div>
             </div>
@@ -100,10 +115,15 @@ const Projects = () => {
                   </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
-              <div className="pb-4">
+              <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/">
                   Dev-to-Dev
                 </a>
+                <IconContext.Provider value={{ size: "1.5em"}}>
+                  <a href="https://github.com/dainylcua/dungeon-sheet">
+                    <SiGithub />
+                  </a>
+                </IconContext.Provider>
               </div>
               <div>Dev-to-Dev is built in Python using the Django framework and handles data using PostgreSQL. The app aims to connect bootcamp students and junior software developers to discuss various topics related to the tech field. Dev-to-Dev was created as a group project where I took up the role as the GitHub manager and general full-stack developer.</div>
             </div>
