@@ -2,7 +2,7 @@ const About = () => {
   return(
     <div id="about" className="bg-gray-100">
       <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-2xl lg:w-3/5">
-        <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
+        <div className="self-center pb-16 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
           about me
         </div>
         <div className="self-center pb-16 text-xl font-bold md:self-start md:text-3xl">

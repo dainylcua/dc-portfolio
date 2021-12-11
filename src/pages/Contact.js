@@ -8,7 +8,7 @@ const Contact = () => {
     <div id="contact" className="py-20 bg-gray-100 ">
       <div className="flex flex-col justify-between w-4/5 mx-auto text-lg lg:w-3/5 md:text-2xl">
           <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">contact me</div>
-          <div className="pb-8 text-xl font-bold text-center md:text-3xl md:text-start">
+          <div className="pt-8 pb-16 text-xl font-bold text-center md:text-3xl md:text-start">
             I'm currently seeking any available opportunities, whether that be for full-time, part-time, or contracted employment!
           </div> 
           <div>
