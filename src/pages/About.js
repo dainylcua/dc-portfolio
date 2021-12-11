@@ -9,7 +9,7 @@ const About = () => {
           If you'd like to check out my Resumé, click <a target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-800" href="https://raw.githubusercontent.com/dainylcua/dc-resume/main/Dainyl%20Cua%20-%20Tech%20Resume%20General.pdf">here!</a>
         </div>
         <div className="pb-12 leading-relaxed">
-          I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area. I love to bake, read, play tabletop games, and annoy my pets! I wrote my first line of code was written while I was helping my sister design her profile page on ToonTownCentral - a forum site for one of our favorite childhood games.
+          I'm Dainyl Cua, a full-stack software engineer based out of the Dallas-Fort Worth area. I love to bake, read, play tabletop games, and annoy my pets! I wrote my first line of code while helping my sister design her HTML profile page on ToonTownCentral in 2008 - a forum site for one of our favorite childhood games.
         </div>
         <div className="pb-16 leading-relaxed">
           I officially started my coding journey in 2021 through online courses, then bolstered my skillset with <a target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-800" href="https://generalassemb.ly/">General Assembly's</a> Software Engineering Immersive course. I primarily develop full-stack applications with the MERN (MongoDB, Express.js, React.js, and Node.js) stack. 
