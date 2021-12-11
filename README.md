@@ -27,7 +27,7 @@ _More details can be found on each of the respsective project repositories._
 
 ## Getting Started
 
-Click [here](https://dc-5etale.herokuapp.com/) to open a live version of the app.
+Click [here](https://dainylcua.netlify.app/) to open a live version of the app.
 
 ## Planned Features
 
