@@ -109,7 +109,7 @@ const Projects = () => {
                   </a>
                 </IconContext.Provider>
               </div>
-              <div>dispbeast.io is a decoupled full-stack CRUD app with a front-end built with React.js, deployed to Netlify, and a back-end built with Express.js, deployed to Heroku. Gather items with a randomly-generated character and sell or buy items on the marketplace.</div>
+              <div>dispbeast.io is a decoupled full-stack CRUD app with a front-end built with React.js, deployed to Netlify, and a back-end built with Express.js, deployed to Heroku. Gather items with a randomly-generated character and trade items with other users on the marketplace.</div>
             </div>
           </div>
 
@@ -135,7 +135,7 @@ const Projects = () => {
                   Dev-to-Dev
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
-                  <a href="https://github.com/dainylcua/dungeon-sheet">
+                  <a href="https://github.com/dainylcua/dev-to-dev">
                     <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>
