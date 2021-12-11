@@ -9,13 +9,13 @@ const Contact = () => {
       <div className="flex flex-col justify-between w-4/5 mx-auto text-lg md:w-3/5 md:text-2xl">
           <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">contact me</div>
           <div>
-            If you have any questions, offers, or would like consultation, you can reach me on LinkedIn, GitHub, or by sending me an email! I will get back to you as soon as possible. My working hours are from 11:00 AM to 6:00PM CST.
+            If you have any questions, offers, or would like a quote, you can reach me on LinkedIn, GitHub, or by sending me an email! I will get back to you as soon as possible. My working hours are from 11:00 AM to 6:00PM CST.
           </div> 
           <div className="flex p-8 mx-auto gap-x-8">
             <div>
               <IconContext.Provider value={{ size: "2em" }}>
                 <a href="https://www.linkedin.com/in/dainylcua/">
-                  <SiLinkedin />
+                  <SiLinkedin className="transition ease-in-out hover:text-blue-400" />
                 </a>
               </IconContext.Provider>
             </div>
@@ -23,14 +23,14 @@ const Contact = () => {
               <a href="https://github.com/dainylcua">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <div>
-                    <SiGithub />
+                    <SiGithub className="transition ease-in-out hover:text-blue-400" />
                   </div>
                 </IconContext.Provider>
               </a>
             </div>
           </div>
           <a className="mx-auto" href="mailto:dainylcuainquiries@gmail.com">
-            <div className="p-8 text-blue-400 bg-white border-2 rounded-md shadow-md hover:text-blue-800 hover:shadow-inner">
+            <div className="p-8 text-blue-400 transition ease-in-out bg-white border-2 rounded-md shadow-md hover:text-blue-800 hover:shadow-inner">
                 Send an Email
             </div>
           </a>

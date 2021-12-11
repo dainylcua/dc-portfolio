@@ -30,7 +30,7 @@ const About = () => {
             <li>jQuery</li>
             <li>MongoDB</li>
             <li>Express.js</li>
-            <li>React.js</li>
+            <li>React</li>
             <li>Node.js</li>
             <li>Python</li>
             <li>Django</li>

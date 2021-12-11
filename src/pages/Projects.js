@@ -1,13 +1,12 @@
 import { IconContext } from 'react-icons'
 import { SiDjango, SiPostgresql, SiPython, SiJavascript, SiReact, SiMongodb, SiExpress, SiNodedotjs, SiBulma, SiTailwindcss, SiBootstrap, SiJquery, SiGithub } from 'react-icons/si'
 import { DiMaterializecss } from 'react-icons/di'
-
 const Projects = () => {
 
   return(
     <div id="projects" className="bg-white">
       <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-2xl md:w-3/5">
-        <div className="flex flex-col pb-8">
+        <div className="flex flex-col pb-24">
           <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
             project showcase
           </div>
@@ -17,15 +16,19 @@ const Projects = () => {
         </div>
 
         {/* Can componentize this */}
-        <div className="flex flex-col gap-y-10">
+        <div className="flex flex-col gap-y-24">
           <div className="flex flex-col items-center md:items-start md:flex-row">
             <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
-              <div className="self-center p-8">Image</div>
+              <div className="self-center pb-4">
+                <a href="https://dc-dungeon-sheet.netlify.app/">
+                  <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dungeonsheet.png" alt="DungeonSheet" title="DungeonSheet" />
+                </a>
+              </div>
               <IconContext.Provider value={{ size: "1.5em" }}>
                 <div className="flex justify-evenly">
-                  <SiJavascript />
-                  <SiJquery />
-                  <SiBootstrap />
+                  <SiJavascript title="JavaScript" className="transition ease-in-out hover:text-blue-400" />
+                  <SiJquery title="jQuery" className="transition ease-in-out hover:text-blue-400" />
+                  <SiBootstrap title="Bootstrap CSS" className="transition ease-in-out hover:text-blue-400"/>
                 </div>
               </IconContext.Provider>
             </div>
@@ -36,7 +39,7 @@ const Projects = () => {
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
                   <a href="https://github.com/dainylcua/dungeon-sheet">
-                    <SiGithub />
+                    <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository"/>
                   </a>
                 </IconContext.Provider>
               </div>
@@ -46,15 +49,19 @@ const Projects = () => {
 
           <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
             <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
-              <div className="self-center p-8">Image</div>
+              <div className="self-center pb-4">
+                <a href="https://github.com/dainylcua/5etale">
+                    <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/5etale.png" alt="5eTale" title="5eTale" />
+                </a>
+              </div>
                 <IconContext.Provider value={{ size: "1.5em" }}>
                   <div className="flex justify-evenly">
-                    <SiJavascript />
-                    <SiJquery />
-                    <SiMongodb />
-                    <SiExpress />
-                    <SiNodedotjs />
-                    <SiBulma />
+                    <SiJavascript className="transition ease-in-out hover:text-blue-400" title="JavaScript" />
+                    <SiJquery className="transition ease-in-out hover:text-blue-400" title="jQuery" />
+                    <SiMongodb className="transition ease-in-out hover:text-blue-400" title="MongoDB" />
+                    <SiExpress className="transition ease-in-out hover:text-blue-400" title="Express.js" />
+                    <SiNodedotjs className="transition ease-in-out hover:text-blue-400" title="Node.js" />
+                    <SiBulma className="transition ease-in-out hover:text-blue-400" title="Bulma CSS" />
                   </div>
                 </IconContext.Provider>
             </div>
@@ -65,7 +72,7 @@ const Projects = () => {
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
                   <a href="https://github.com/dainylcua/5etale">
-                    <SiGithub />
+                    <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>
               </div>
@@ -75,15 +82,19 @@ const Projects = () => {
 
           <div className="flex flex-col items-center md:items-start md:flex-row">
             <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
-              <div className="self-center p-8">Image</div>
+              <div className="self-center pb-4">
+                <a href="https://github.com/dainylcua/dispbeast.io-frontend">
+                    <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dispbeastio.png" alt="dispbeast.io" title="dispbeast.io" />
+                </a>
+              </div>
                 <IconContext.Provider value={{ size: "1.5em" }}>
                   <div className="flex justify-evenly">
-                    <SiJavascript />
-                    <SiMongodb />
-                    <SiExpress />
-                    <SiReact />
-                    <SiNodedotjs />
-                    <SiTailwindcss />
+                    <SiJavascript className="transition ease-in-out hover:text-blue-400" title="JavaScript" />
+                    <SiMongodb className="transition ease-in-out hover:text-blue-400" title="MongoDB" />
+                    <SiExpress className="transition ease-in-out hover:text-blue-400" title="Express.js" />
+                    <SiReact className="transition ease-in-out hover:text-blue-400" title="React" />
+                    <SiNodedotjs className="transition ease-in-out hover:text-blue-400" title="Node.js" />
+                    <SiTailwindcss className="transition ease-in-out hover:text-blue-400" title="Tailwind CSS" />
                   </div>
                 </IconContext.Provider>
             </div>
@@ -94,7 +105,7 @@ const Projects = () => {
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
                   <a href="https://github.com/dainylcua/dispbeast.io-frontend">
-                    <SiGithub />
+                    <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>
               </div>
@@ -104,24 +115,28 @@ const Projects = () => {
 
           <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
             <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
-              <div className="self-center p-8">Image</div>
+              <div className="self-center pb-4">
+                <a href="https://github.com/dainylcua/dev-to-dev">
+                    <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/devtodev.png" alt="Dev-to-Dev" title="Dev-to-Dev" />
+                </a>
+              </div>
                   <IconContext.Provider value={{ size: "1.5em" }}>
                     <div className="flex justify-evenly">
-                      <SiPython />
-                      <SiDjango />
-                      <SiPostgresql />
-                      <DiMaterializecss />
+                      <SiPython className="transition ease-in-out hover:text-blue-400" title="Python" />
+                      <SiDjango className="transition ease-in-out hover:text-blue-400" title="Django" />
+                      <SiPostgresql className="transition ease-in-out hover:text-blue-400" title="PostgreSQL" />
+                      <DiMaterializecss className="transition ease-in-out hover:text-blue-400" title="Materialize CSS" />
                     </div>
                   </IconContext.Provider>
             </div>
             <div className="flex flex-col md:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
-                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/">
+                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/" title="Dev-to-Dev">
                   Dev-to-Dev
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
                   <a href="https://github.com/dainylcua/dungeon-sheet">
-                    <SiGithub />
+                    <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>
               </div>
