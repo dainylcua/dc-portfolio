@@ -5,7 +5,7 @@ const About = () => {
         <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
           about me
         </div>
-        <div className="pb-16 font-bold md:text-3xl">
+        <div className="self-center pb-16 text-xl font-bold md:self-start md:text-3xl">
           If you'd like to check out my Resumé, click <a className="text-blue-400 underline hover:text-blue-800" href="https://raw.githubusercontent.com/dainylcua/dc-resume/main/Dainyl%20Cua%20-%20Tech%20Resume%20General.pdf">here!</a>
         </div>
         <div className="pb-12 leading-relaxed">
