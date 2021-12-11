@@ -6,10 +6,10 @@ const Contact = () => {
 
   return(
     <div id="contact" className="py-20 bg-gray-100 ">
-      <div className="flex flex-col justify-between w-4/5 mx-auto text-lg md:w-3/5 md:text-2xl">
+      <div className="flex flex-col justify-between w-4/5 mx-auto text-lg lg:w-3/5 md:text-2xl">
           <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">contact me</div>
           <div>
-            If you have any questions, offers, or would like a quote, you can reach me on LinkedIn, GitHub, or by sending me an email! I will get back to you as soon as possible. My working hours are from 11:00 AM to 6:00PM CST.
+            If you have any questions or would like to reach out, you can find me on LinkedIn, GitHub, or can send me an email - I would be happy to chat! I will get back to you as soon as possible.
           </div> 
           <div className="flex p-8 mx-auto gap-x-8">
             <div>

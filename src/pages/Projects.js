@@ -5,8 +5,8 @@ const Projects = () => {
 
   return(
     <div id="projects" className="bg-white">
-      <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-2xl md:w-3/5">
-        <div className="flex flex-col pb-24">
+      <div className="flex flex-col justify-between w-4/5 py-20 mx-auto text-lg md:text-2xl lg:w-3/5">
+        <div className="flex flex-col pb-16 md:pb-20 lg:pb-24">
           <div className="self-center pb-12 text-4xl font-bold text-blue-400 md:text-6xl md:self-start">
             project showcase
           </div>
@@ -16,10 +16,10 @@ const Projects = () => {
         </div>
 
         {/* Can componentize this */}
-        <div className="flex flex-col gap-y-24">
-          <div className="flex flex-col items-center md:items-start md:flex-row">
-            <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
-              <div className="self-center pb-4">
+        <div className="flex flex-col gap-y-16 md:gap-y-20 lg:gap-y-24">
+          <div className="flex flex-col items-center lg:items-start lg:flex-row">
+            <div className="flex flex-col pb-8 lg:pr-8 lg:w-1/3 lg:pb-0">
+              <div className="self-center pb-4 transition transform hover:scale-110">
                 <a href="https://dc-dungeon-sheet.netlify.app/">
                   <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dungeonsheet.png" alt="DungeonSheet" title="DungeonSheet" />
                 </a>
@@ -32,7 +32,7 @@ const Projects = () => {
                 </div>
               </IconContext.Provider>
             </div>
-            <div className="flex flex-col md:w-2/3">
+            <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dungeon-sheet.netlify.app/">
                   DungeonSheet
@@ -47,9 +47,9 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
-            <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
-              <div className="self-center pb-4">
+          <div className="flex flex-col items-center lg:flex-row-reverse lg:place-self-end lg:items-start">
+            <div className="flex flex-col pb-8 lg:pl-8 lg:w-1/3 lg:pb-0">
+              <div className="self-center pb-4 transition transform hover:scale-110">
                 <a href="https://github.com/dainylcua/5etale">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/5etale.png" alt="5eTale" title="5eTale" />
                 </a>
@@ -65,7 +65,7 @@ const Projects = () => {
                   </div>
                 </IconContext.Provider>
             </div>
-            <div className="flex flex-col md:w-2/3">
+            <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-5etale.herokuapp.com/">
                   5eTale
@@ -80,9 +80,9 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center md:items-start md:flex-row">
-            <div className="flex flex-col pb-8 md:pr-8 md:w-1/3 md:pb-0">
-              <div className="self-center pb-4">
+          <div className="flex flex-col items-center lg:items-start lg:flex-row">
+            <div className="flex flex-col pb-8 lg:pr-8 lg:w-1/3 lg:pb-0">
+              <div className="self-center pb-4 transition transform hover:scale-110">
                 <a href="https://github.com/dainylcua/dispbeast.io-frontend">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dispbeastio.png" alt="dispbeast.io" title="dispbeast.io" />
                 </a>
@@ -98,7 +98,7 @@ const Projects = () => {
                   </div>
                 </IconContext.Provider>
             </div>
-            <div className="flex flex-col md:w-2/3">
+            <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dispbeastio.netlify.app/">
                   dispbeast.io
@@ -113,9 +113,9 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center md:flex-row-reverse md:place-self-end md:items-start">
-            <div className="flex flex-col pb-8 md:pl-8 md:w-1/3 md:pb-0">
-              <div className="self-center pb-4">
+          <div className="flex flex-col items-center lg:flex-row-reverse lg:place-self-end lg:items-start">
+            <div className="flex flex-col pb-8 lg:pl-8 lg:w-1/3 lg:pb-0">
+              <div className="self-center pb-4 transition transform hover:scale-110">
                 <a href="https://github.com/dainylcua/dev-to-dev">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/devtodev.png" alt="Dev-to-Dev" title="Dev-to-Dev" />
                 </a>
@@ -129,7 +129,7 @@ const Projects = () => {
                     </div>
                   </IconContext.Provider>
             </div>
-            <div className="flex flex-col md:w-2/3">
+            <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
                 <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/" title="Dev-to-Dev">
                   Dev-to-Dev
