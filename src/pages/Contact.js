@@ -17,13 +17,13 @@ const Contact = () => {
           <div className="flex p-8 mx-auto gap-x-8">
             <div>
               <IconContext.Provider value={{ size: "2em" }}>
-                <a href="https://www.linkedin.com/in/dainylcua/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dainylcua/">
                   <SiLinkedin className="transition ease-in-out hover:text-blue-400" />
                 </a>
               </IconContext.Provider>
             </div>
             <div>
-              <a href="https://github.com/dainylcua">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua">
                 <IconContext.Provider value={{ size: "2em" }}>
                   <div>
                     <SiGithub className="transition ease-in-out hover:text-blue-400" />

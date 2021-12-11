@@ -20,7 +20,7 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:items-start lg:flex-row">
             <div className="flex flex-col pb-8 lg:pr-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a href="https://dc-dungeon-sheet.netlify.app/">
+                <a target="_blank" rel="noopener noreferrer" href="https://dc-dungeon-sheet.netlify.app/">
                   <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dungeonsheet.png" alt="DungeonSheet" title="DungeonSheet" />
                 </a>
               </div>
@@ -34,23 +34,23 @@ const Projects = () => {
             </div>
             <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
-                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dungeon-sheet.netlify.app/">
+                <a target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dungeon-sheet.netlify.app/">
                   DungeonSheet
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
-                  <a href="https://github.com/dainylcua/dungeon-sheet">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dungeon-sheet">
                     <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository"/>
                   </a>
                 </IconContext.Provider>
               </div>
-              <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a className="text-blue-400 underline hover:text-blue-800" href="http://www.dnd5eapi.co/">here!</a></div>
+              <div>DungeonSheet was my first big project: a single-page-application created with JavaScript and jQuery that has no frameworks. This app uses the Dungeons and Dragons 5th edition API to create a level 1 character. The API used can be found <a target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-800" href="http://www.dnd5eapi.co/">here!</a></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center lg:flex-row-reverse lg:place-self-end lg:items-start">
             <div className="flex flex-col pb-8 lg:pl-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a href="https://github.com/dainylcua/5etale">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/5etale">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/5etale.png" alt="5eTale" title="5eTale" />
                 </a>
               </div>
@@ -67,11 +67,11 @@ const Projects = () => {
             </div>
             <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
-                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-5etale.herokuapp.com/">
+                <a target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-5etale.herokuapp.com/">
                   5eTale
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
-                  <a href="https://github.com/dainylcua/5etale">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/5etale">
                     <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>
@@ -83,7 +83,7 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:items-start lg:flex-row">
             <div className="flex flex-col pb-8 lg:pr-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a href="https://github.com/dainylcua/dispbeast.io-frontend">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dispbeast.io-frontend">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dispbeastio.png" alt="dispbeast.io" title="dispbeast.io" />
                 </a>
               </div>
@@ -100,11 +100,11 @@ const Projects = () => {
             </div>
             <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
-                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dispbeastio.netlify.app/">
+                <a target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dispbeastio.netlify.app/">
                   dispbeast.io
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
-                  <a href="https://github.com/dainylcua/dispbeast.io-frontend">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dispbeast.io-frontend">
                     <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>
@@ -116,7 +116,7 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:flex-row-reverse lg:place-self-end lg:items-start">
             <div className="flex flex-col pb-8 lg:pl-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a href="https://github.com/dainylcua/dev-to-dev">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dev-to-dev">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/devtodev.png" alt="Dev-to-Dev" title="Dev-to-Dev" />
                 </a>
               </div>
@@ -131,11 +131,11 @@ const Projects = () => {
             </div>
             <div className="flex flex-col lg:w-2/3">
               <div className="flex flex-row pb-4 gap-x-4">
-                <a className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/" title="Dev-to-Dev">
+                <a target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-blue-400 underline md:text-4xl hover:text-blue-800" href="https://dc-dev-to-dev-test.herokuapp.com/" title="Dev-to-Dev">
                   Dev-to-Dev
                 </a>
                 <IconContext.Provider value={{ size: "1.5em"}}>
-                  <a href="https://github.com/dainylcua/dev-to-dev">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dev-to-dev">
                     <SiGithub className="transition ease-in-out hover:text-blue-400" title="GitHub Repository" />
                   </a>
                 </IconContext.Provider>

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="bg-blue-400">
         <footer className="flex items-center justify-between w-4/5 h-16 py-8 mx-auto text-lg text-white lg:w-3/5 md:text-2xl">
             <div className="hidden lg:block">
-              <a className="hover:text-red-200" href="https://github.com/dainylcua/dc-portfolio">
+              <a target="_blank" rel="noopener noreferrer" className="hover:text-red-200" href="https://github.com/dainylcua/dc-portfolio">
                 <div className="flex flex-row items-center gap-x-2">
                   Designed and Devleoped by Dainyl Cua!
                   <IconContext.Provider value={{ size: "1em" }}>
