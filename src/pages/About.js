@@ -20,33 +20,37 @@ const About = () => {
         {/* Potentially make this a JSON file? */}
         <div className="flex justify-between pt-5 gap-x-2 lg:w-3/4">
           <ul className="flex flex-col gap-y-2">
-            <li className="pb-2 font-bold text-blue-400">Front-End Focused</li>
+            <li className="pb-2 font-bold text-blue-400">Coding Languages</li>
             <li>HTML5</li>
             <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>MATLAB</li>
+            <li>LabView</li>
+            <li>VBA</li>
+          </ul>
+          <ul className="flex flex-col gap-y-2">
+            <li className="pb-2 font-bold text-blue-400">Frameworks / Libraries</li>
+            <li>React</li>
+            <li>Express.js</li>
+            <li>jQuery</li>
+            <li>Django</li>
             <li>Tailwind CSS</li>
             <li>Bulma CSS</li>
             <li>Bootstrap CSS</li>
-          </ul>
-          <ul className="flex flex-col gap-y-2">
-            <li className="pb-2 font-bold text-blue-400">Full-Stack Focused</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>MongoDB</li>
-            <li>Express.js</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Python</li>
-            <li>Django</li>
-            <li>PostgreSQL</li>
+            <li>Materialize CSS</li>
           </ul>
           <ul className="flex flex-col gap-y-2"> 
-            <li className="pb-2 font-bold text-blue-400">Other</li>
+            <li className="pb-2 font-bold text-blue-400">Other Technologies</li>
             <li>Git</li>
             <li>GitHub</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Google Firebase</li>
+            <li>Heroku</li>
+            <li>Netlify</li>
             <li>Trello</li>
-            <li>InVision</li>
-            <li>MATLAB</li>
-            <li>LabView</li>
+            <li>InVision App</li>
           </ul>
         </div>
       </div>
