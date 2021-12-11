@@ -1,10 +1,10 @@
 # dc-portfolio
 
-*Welcome to the GitHub repository for Dainyl Cua's web portfolio !*
+*Welcome to the GitHub repository for Dainyl Cua's web portfolio!*
 
 ## Projects Showcased
 
-_More details can be found on each of the respsective pages._
+_More details can be found on each of the respsective project repositories._
 
 [Dev-to-Dev](https://github.com/dainylcua/dev-to-dev): A full-stack CRUD forum developed in a group using Django and PostgreSQL. I took up the task of full-stack developer and GitHub manager for this project.
 
