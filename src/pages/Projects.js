@@ -50,7 +50,7 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:flex-row-reverse lg:place-self-end lg:items-start">
             <div className="flex flex-col pb-8 lg:pl-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/5etale">
+                <a target="_blank" rel="noopener noreferrer" href="https://dc-5etale.herokuapp.com/">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/5etale.png" alt="5eTale" title="5eTale" />
                 </a>
               </div>
@@ -83,7 +83,7 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:items-start lg:flex-row">
             <div className="flex flex-col pb-8 lg:pr-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dispbeast.io-frontend">
+                <a target="_blank" rel="noopener noreferrer" href="https://dispbeastio.netlify.app/">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/dispbeastio.png" alt="dispbeast.io" title="dispbeast.io" />
                 </a>
               </div>
@@ -116,7 +116,7 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:flex-row-reverse lg:place-self-end lg:items-start">
             <div className="flex flex-col pb-8 lg:pl-8 lg:w-1/3 lg:pb-0">
               <div className="self-center pb-4 transition transform hover:scale-110">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dainylcua/dev-to-dev">
+                <a target="_blank" rel="noopener noreferrer" href="https://dc-dev-to-dev-test.herokuapp.com/">
                     <img className="object-scale-down h-48 p-2 border shadow-md w-96" src="/devtodev.png" alt="Dev-to-Dev" title="Dev-to-Dev" />
                 </a>
               </div>
