@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="hidden lg:block">
               <a target="_blank" rel="noopener noreferrer" className="hover:text-red-200" href="https://github.com/dainylcua/dc-portfolio">
                 <div className="flex flex-row items-center gap-x-2">
-                  Designed and Devleoped by Dainyl Cua!
+                  Designed and Developed by Dainyl Cua!
                   <IconContext.Provider value={{ size: "1em" }}>
                     <SiGithubactions />
                   </IconContext.Provider>
