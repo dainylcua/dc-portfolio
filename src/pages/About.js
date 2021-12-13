@@ -24,6 +24,7 @@ const About = () => {
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
+            <li>Python</li>
             <li>MATLAB</li>
             <li>LabView</li>
             <li>VBA</li>
