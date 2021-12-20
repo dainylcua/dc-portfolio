@@ -21,10 +21,11 @@ const About = () => {
         <div className="flex justify-between pt-5 gap-x-2 lg:w-3/4">
           <ul className="flex flex-col gap-y-2">
             <li className="pb-2 font-bold text-blue-400">Coding Languages</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
             <li>JavaScript</li>
             <li>Python</li>
+            <li>GraphQL</li>
+            <li>CSS3</li>
+            <li>HTML5</li>
             <li>MATLAB</li>
             <li>LabView</li>
             <li>VBA</li>
@@ -32,6 +33,7 @@ const About = () => {
           <ul className="flex flex-col gap-y-2">
             <li className="pb-2 font-bold text-blue-400">Frameworks / Libraries</li>
             <li>React</li>
+            <li>Next.js</li>
             <li>Express.js</li>
             <li>jQuery</li>
             <li>Django</li>
@@ -48,6 +50,7 @@ const About = () => {
             <li>MongoDB</li>
             <li>PostgreSQL</li>
             <li>Google Firebase</li>
+            <li>Contentful and other Headless CMS</li>
             <li>Heroku</li>
             <li>Netlify</li>
             <li>Trello</li>
